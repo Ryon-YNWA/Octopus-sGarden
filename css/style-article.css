@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* Article */
+
+.article-title {
+    font-size: 150%;
+    font-weight: bold;
+    border-bottom: 3px solid #666;
+    margin: 10px 0;
+}
+
+.article-subtitle {
+    font-size: 120%;
+    font-weight: bold;
+    border-bottom: 1px solid #666;
+    margin: 5px 0;
+}
+
+.article-opening {
+    font-size: 100%;
+}
+
+.article-text {
+    font-size: 100%;
+}
+
+.article-thumbnail {
+    height: 180px;
+    width: 320px;
+    margin: 10px 0;
+    object-fit: cover;
+    border: 2px solid #CCC;
+}
+
+.article-taglist {
+    display: flex;
+    height: 10px;
+}
+
+.article-tag {
+    margin: 0 5px;
+    font-size: 80%;
+}
+
+.article-tag:hover {
+    color: #ffdd00;
+}
+
+.article-date {
+    font-size: 80%;
+}
+
+.article-date:hover {
+    color: #ffdd00;
+}
